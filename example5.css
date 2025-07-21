@@ -1,0 +1,52 @@
+.examplecolor{
+    color: blue;
+}
+.example-fontfamily{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.example-fontsize{
+    font-size: 35px;
+
+}
+.example-fontstyle{
+    font-style: oblique;
+    font-style: italic;
+}
+.example-fontweight{
+    font-weight: bold;
+}
+#example-textalign{
+    /* text-align: center; */
+    text-align: right;
+}
+.example-textdeco{
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    text-decoration: line-through;
+}
+h2{
+    /* text-transform: capitalize; */
+    /* text-transform: lowercase; */
+    text-transform: uppercase;
+}
+
+.example-fontvarient{
+    font-variant: small-caps;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+.example-lineheight{
+    /* font-size: 20px; */
+    line-height: 3;
+    background-color: rgb(0, 255, 38);
+}
+
+.example-letterspacing{
+    letter-spacing: 20px;
+    background-color: aqua;
+
+}
+.example-textindent{
+    text-indent: 300px;
+    /* font-size: 25px; */
+}

@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: blue;
+}
+h2{
+    text-transform: uppercase;
+}
+.font-weight{
+    font-weight: bolder;
+}
+nav{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    font-style: italic;
+    line-height: 2;
+    letter-spacing: 3px;
+    text-indent: 50px;
+}
+nav{
+    font-variant: small-caps;
+}
+.size{
+    font-size: 15px;
+}
+ul{
+    text-transform: capitalize;
+}

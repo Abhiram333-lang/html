@@ -36,7 +36,7 @@ h2{
     font-size: 18px;
 }
 .example-lineheight{
-    /* font-size: 20px; */
+    font-size: 20px;
     line-height: 3;
     background-color: rgb(0, 255, 38);
 }

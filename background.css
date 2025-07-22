@@ -1,0 +1,46 @@
+body{
+    background-color: aqua;
+    color: rgb(255, 0, 0);
+}
+h3{
+    color: black;
+    text-transform: uppercase;
+}
+.bg-color{
+    background-color: rgb(85, 255, 0);
+}
+
+.bg-image{
+    background-image: url(img2.jpg);
+    background-size: 150px;
+}
+.bg-repeat{
+    background-image: url(hai.jpg);
+    background-size: 150px;
+    background-repeat: no-repeat;
+}
+.bg-position{
+    background-image: url(hai.jpg);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-color: rgb(44, 165, 42);
+
+}
+.bg-size{
+    background-image: url(hai.jpg);
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
+.bg-attachment{
+    background-image: url(hai.jpg);
+    background-repeat: no-repeat;
+    /* background-size: 150px; */
+    background-attachment: fixed;
+}
+.bg-shorthand{
+    background-size: 150px;
+    background: url(hai.jpg) no-repeat center fixed;
+
+    
+}

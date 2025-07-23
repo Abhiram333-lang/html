@@ -1,0 +1,77 @@
+*{
+    margin: 20px;
+}
+body{
+    background-color: aqua;
+    
+}
+.header{
+    text-align: center;
+    background-color: rgb(179, 237, 143);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+p{
+    font-style: italic;
+    text-indent: 50px;
+    font-weight: 500;
+    font-size: large;
+    border-radius: 10px;
+    border-style: solid;
+    border-color:#94ac3d;
+    padding: 20px;
+    background-color: aquamarine;
+    
+}
+.author{
+    font-variant: small-caps;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-size: 18px; */
+    text-indent: 20px;
+}
+
+footer{
+    text-align: center;
+    /* font-variant: small-caps; */
+}
+h2,h3{
+    color: rgb(82, 137, 14);
+    text-align: center;
+    text-indent: 20px;
+    /* background-color: rgb(185, 185, 188); */
+    font-variant: small-caps;
+    background-color: blanchedalmond;
+}
+.photo1{
+    width: 1240px;
+    height: 700px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+h1{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+#box{
+     background-color: rgb(179, 237, 143);
+}
+.blog1{
+    padding: 20px;
+    border: 2px solid rgb(31, 27, 27);
+    border-radius: 10px;
+}
+.blog2{
+    
+    padding: 20px;
+    border: 2px solid rgb(31, 27, 27);
+    border-radius: 10px;
+}
+.blog-video2,.blog-video1{
+    padding: 20px;
+    border: 2px solid rgb(31, 27, 27);
+    border-radius: 10px;
+}
+video{
+    border: 2px solid black;
+    border-radius: 10px;
+}

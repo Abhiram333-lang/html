@@ -1,0 +1,48 @@
+
+/* 1  absolute*/
+/* #section{
+    width: 200px;
+    height: 200px;
+    background-color: blanchedalmond;
+    position: absolute;
+    top: 0px;
+    left: 500px;
+    
+
+} */
+
+/* 2  relative*/
+/* #section{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(212, 145, 43);
+    position: relative;
+    top: 200px;
+    left: 500px;
+
+} */
+
+/* 3  fixed*/
+/* body{
+    height: 2000px;
+}
+#section{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+} */
+
+/* 4 sticky */
+ body{
+    height: 2000px;
+}
+#section{
+    position: sticky;
+    top: 0px;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}

@@ -1,15 +1,15 @@
 
 /* 1  absolute*/
-/* #section{
+#section{
     width: 200px;
     height: 200px;
     background-color: blanchedalmond;
     position: absolute;
-    top: 0px;
-    left: 500px;
+    top: 150px;
+    left: 200px;
     
 
-} */
+}
 
 /* 2  relative*/
 /* #section{
@@ -17,8 +17,8 @@
     height: 200px;
     background-color: rgb(212, 145, 43);
     position: relative;
-    top: 200px;
-    left: 500px;
+    top: 00px;
+    left: 00px;
 
 } */
 
@@ -36,7 +36,7 @@
 } */
 
 /* 4 sticky */
- body{
+ /* body{
     height: 2000px;
 }
 #section{
@@ -45,4 +45,4 @@
     width: 200px;
     height: 200px;
     background-color: aqua;
-}
+} */

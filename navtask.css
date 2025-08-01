@@ -1,0 +1,97 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: url(bg.jpg) no-repeat;
+    background-size: cover;
+    /* font-size: 20px; */
+}
+
+nav{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 40px;
+    font-weight: bolder;
+}
+
+nav ul.nav-link{
+    display: flex;
+    list-style: none;
+    margin-left: 400px;
+}
+
+nav .nav-link li a{
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav .log{
+    padding: 0px;
+    padding-left: 50px;
+    margin: 0;
+    font-size: 50px;
+    font-weight: bolder;
+}
+/* nav .heading{
+    padding-left:0px;
+} */
+button{
+    width: 150px;
+    height: 30px;
+    padding-right: 10px;
+    font-weight: bolder;
+    color: white;
+    background-color: orange;
+    border: 2px solid orange;
+    text-transform: uppercase;
+}
+
+
+.content{
+    display: flex;
+    /* justify-content: center; */
+}
+img{
+    border-radius: 230px;
+
+}
+.box1{
+    padding-top: 180px;
+    padding-left: 40px;
+    color: white;
+    font-size: 20px;
+
+}
+p{
+    font-weight: bold;
+}
+.head{
+    font-size: 50px; 
+    
+
+}
+.box2{
+    padding-top: 170px;
+    padding-left: 400px;
+    padding-right: 80px;
+
+}
+nav .nav-link li a:hover{
+    color: orange;
+}
+
+button:hover{
+    color: red;
+
+}
+.header{
+    color: orange;
+    font-weight: bolder;
+    font-size: 40px;
+    padding-left:0px;
+    padding-right: 100px;
+}

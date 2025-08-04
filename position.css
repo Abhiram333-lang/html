@@ -1,6 +1,6 @@
 
 /* 1  absolute*/
-#section{
+/* #section{
     width: 200px;
     height: 200px;
     background-color: blanchedalmond;
@@ -9,7 +9,7 @@
     left: 200px;
     
 
-}
+} */
 
 /* 2  relative*/
 /* #section{
@@ -36,7 +36,7 @@
 } */
 
 /* 4 sticky */
- /* body{
+ body{
     height: 2000px;
 }
 #section{
@@ -45,4 +45,4 @@
     width: 200px;
     height: 200px;
     background-color: aqua;
-} */
+}

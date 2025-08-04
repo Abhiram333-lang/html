@@ -1,0 +1,117 @@
+/* body{
+    background-color: blue;
+
+}
+.containers{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    animation: block 1s ease-out 1s infinite ;
+}
+@keyframes block {
+    from{
+        width: 250px;
+        height: 400px;
+
+    }
+    to{
+        width: 500px;
+        height: 500px;
+
+    }
+} */
+
+
+
+body{
+    background-color: blue;
+
+}
+.containers{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    animation: block 5s ease-out 1s infinite ;
+    /* border-radius: 100px; */
+}
+/* @keyframes block {
+    0%{
+        width: 250px;
+        height: 400px;
+        background-color: red;
+
+    }
+    50%{
+        width: 500px;
+        height: 500px;
+        background-color: rgb(52, 170, 28);
+
+    }
+    100%{
+        width: 700px;
+        height: 300px;
+        background-color: pink;
+    }
+} */
+
+div:hover{
+    /* animation-play-state: paused; */
+    transform: rotate(45deg);
+    transform: scale(.5) rotate(45deg);
+    /* transform: skewX(100deg); */
+    
+}
+
+
+
+
+
+
+
+
+
+body{
+    background-color: blue;
+}
+
+.container{
+    
+    width: 100px;
+    height: 100px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.container > div{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+.loader1{
+    animation: loader 1s ease-out .3s infinite ;
+}
+.loader2{
+    animation: loader 1s ease-out .6s infinite ;
+}
+.loader3{
+    animation: loader 1s ease-out .9 infinite ;
+}
+
+@keyframes loader {
+    0%{
+        transform: translateY(10px);
+    }
+    50%{
+        transform: translateY(0px);
+
+    }
+    100%{
+        transform: translateY(0);
+    }
+    
+}

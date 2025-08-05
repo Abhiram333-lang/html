@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    padding-top: 10px;
+    padding-left: 80px;
+    
+}
+nav{
+    display: flex;
+    
+}
+
+
+.nav-link{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 700px;
+    list-style: none;
+}
+.nav-link li{
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+}
+.box1{
+    padding-top: 20px;
+    padding-left: 80px;
+
+}
+
+
+
+p{
+    font-size: 25px;
+    color: rgb(111, 90, 90);
+}
+.head{
+    font-size: 70px;
+    /* font-weight: bolder; */
+    color: black;
+}
+button{
+    background-color: red;
+    color: white;
+    font: size 25px;
+    font-weight: bold; 
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+button:hover{
+    color: blue;
+}
+
+.box2{
+    padding-left: 160px;
+}
